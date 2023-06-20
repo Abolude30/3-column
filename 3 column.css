@@ -1,0 +1,179 @@
+body{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.parent-div{
+    text-align: center;
+}
+
+.parent-div div{
+    text-align: initial;
+    padding-left: 15px;
+    width: 90%;
+}
+
+.parent-div div button{
+    width: 50%;
+    height: 40px;
+    border-radius: 400px;
+    border-style: none;
+    font-size: 14px;
+    font-family: Lexend Deca;
+    font-weight: 400;
+    
+}
+
+.parent-div h1{
+    color: hsl(0, 0%, 95%);
+    font-size: 25px;
+    font-family: Big Shoulders Display;
+    font-weight: 700;
+}
+
+.child-div-one {
+    text-align: initial;
+    padding-left: 26px;
+    width: 94%;
+    background-color: hsl(31, 77%, 52%);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.child-div-one button:hover{
+    cursor: pointer;
+    background-color: hsl(31, 77%, 52%) ;  
+    border: solid 2px white;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.child-div-one button{
+    color: hsl(31, 77%, 52%);
+}
+
+
+
+
+.child-div-two{
+    background-color: hsl(184, 100%, 22%);
+    text-align: initial;
+    padding-left: 26px;
+    width: 94%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+
+.child-div-two button:hover{
+    cursor: pointer;
+    background-color: hsl(184, 100%, 22%) ;  
+    border: solid 2px white;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.child-div-two button{
+    color: hsl(184, 100%, 22%);
+}
+
+
+
+
+.child-div-three{
+    background-color: hsl(179, 100%, 13%);
+    text-align: initial;
+    padding-left: 26px;
+    width: 94%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.child-div-three button:hover{
+    cursor: pointer;
+    background-color: hsl(179, 100%, 13%) ;  
+    border: solid 2px white;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.child-div-three button{
+    color: hsl(179, 100%, 13%);
+}
+
+
+.parent-div div p{
+    width: 90%;
+    line-height: 21px;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: Lexend Deca;
+    font-weight: 400;
+}
+
+
+@media screen and (min-width: 600px) {
+    .parent-div{
+        display: flex;
+    }
+
+    .parent-div div img{
+        width: 25%;
+    }
+
+
+    .parent-div div button{
+        width: 63%;
+        height: 35px;
+        border-radius: 400px;
+        border-style: none;
+        font-size: 14px;
+        
+    }
+
+    .child-div-one {
+        text-align: initial;
+        padding-left: 26px;
+        width: 94%;
+        background-color: hsl(31, 77%, 52%);
+        padding-top: 25px;
+        padding-bottom: 25px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+    }
+
+
+    .child-div-two{
+        background-color: hsl(184, 100%, 22%);
+        text-align: initial;
+        padding-left: 26px;
+        width: 94%;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    
+    }
+
+
+    .child-div-three{
+        background-color: hsl(179, 100%, 13%);
+        text-align: initial;
+        padding-left: 26px;
+        width: 94%;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .parent-div div p{
+        width: 88%;
+        line-height: 21px;
+        font-size: 15px;
+        color: hsla(0, 0%, 100%, 0.75);
+        font-weight: 400;
+    }
+
+}
+
